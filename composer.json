@@ -1,0 +1,24 @@
+{
+    "name": "denni/app-salon_php_mvc_js_sass",
+    "description": "Pagina de desarrollo sobre una pagina de belleza.",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "Denni\\AppSalonPhpMvcJsSass\\": "src/",
+            "MVC\\" : "./",
+            "Controllers\\" : "./controllers",
+            "Models\\" : "./models",
+            "Classes\\" : "./classes",
+            "PHPMailer\\PHPMailer\\": "./vendor/phpmailer/phpmailer"
+        }
+    },
+    "authors": [
+        {
+            "name": "Dennis"
+        }
+    ],
+    "require": {
+        "phpmailer/phpmailer": "^6.5",
+        "vlucas/phpdotenv": "^5.4"
+    }
+}
